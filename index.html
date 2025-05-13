@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Assessment</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel=”stylesheet”
+    href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel=”nofollow”
+    integrity=”sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I”
+    crossorigin=”anonymous”>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div id="hwrapper">
+        <a href="#" id="logocont" title="Logo">
+          <img src="./Images/logo.png" alt="Logo" />
+        </a>
+        <button id="hamburger" aria-label="Toggle menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav id="navBar">
+          <ul>
+            <li>
+              <a href="#" title="Home"
+                ><i class="fa-solid fa-house-chimney"></i>
+              </a>
+            </li>
+            <li><a href="#" title="About">About</a></li>
+            <li><a href="#" title="Products">Products</a></li>
+            <li><a href="#" title="Accounts">Accounts</a></li>
+            <li><a href="#" title="Platforms">Platforms</a></li>
+            <li><a href="#" title="Tools">Tools</a></li>
+            <li><a href="#" title="Education">Education</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <section id="heroCont" class="sectionCont">
+      <div class="container">
+        <div id="heroTxt">
+          <div id="heroTitle">
+            <h1>HotForex App</h1>
+            <h2>Your Indispensable Tool</h2>
+          </div>
+          <div id="heroList">
+            <ul>
+              <li>-Lorem ipsum dolor sit amet consectetur.</li>
+              <li>-Lorem ipsum dolor sit.</li>
+              <li>-Lorem ipsum dolor sit amet.</li>
+            </ul>
+          </div>
+        </div>
+        <div id="heroStore">
+          <a
+            href="https://play.google.com/store/"
+            target="_blank"
+            title="Play Store"
+            ><img src="./Images/playstore.png" alt="Play Store"
+          /></a>
+          <a
+            href="https://www.apple.com/mx/app-store/"
+            target="_blank"
+            title="App Store"
+            ><img src="./Images/appstore.png" alt="App Store"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <section id="formCont" class="sectionCont">
+      <div class="container">
+        <div id="formCont">
+          <form action="/">
+            <div id="formLeft">
+              <label for="firstname" class="hidden">First Name</label>
+              <input type="text" id="firstname" placeholder="First Name" />
+              <label for="lastname" class="hidden">Last Name</label>
+              <input type="text" id="lastname" placeholder="Last Name" />
+              <div id="mail">
+                <label for="email" class="hidden">Email</label>
+                <p id="emailError" style="color: red; display: none">
+                  Invalid email address.
+                </p>
+                <input type="email" id="email" placeholder="Email" />
+              </div>
+              <label for="country" class="hidden">Country</label>
+              <select id="country">
+                <option value="" disabled selected>Country of Residence</option>
+                <option value="MX" data-code="+52">Mexico</option>
+                <option value="US" data-code="+1">USA</option>
+                <option value="JP" data-code="+81">Japan</option>
+              </select>
+              <label for="phone" class="hidden">Phone</label>
+              <input type="tel" id="phone" placeholder="Phone" />
+              <label for="currency" class="hidden">Currency</label>
+              <select name="currency" id="currency">
+                <option value="" disabled selected>Currency</option>
+                <option value="1">MXN</option>
+                <option value="2">USD</option>
+                <option value="3">JPY</option>
+              </select>
+            </div>
+            <div id="formRight">
+              <div id="formCheck">
+                <input type="checkbox" id="terms" name="read" required />
+                <label id="checkLabel" for="terms">
+                  I have read and accepted the privacy policy Trading Forex &
+                  CFD is risky
+                </label>
+              </div>
+              <button type="submit">Register Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="servCont" class="sectionCont">
+      <div class="container">
+        <div id="servTitle">
+          <h2>This is Dummy Text</h2>
+        </div>
+        <div id="servList">
+          <div class="servInner left">
+            <i class="fa-solid fa-users-gear"></i>
+            <p>It is a long established<br />fact that a reader</p>
+          </div>
+          <div class="servInner right">
+            <i class="fa-solid fa-circle-nodes"></i>
+            <p>
+              The standard chunk<br />
+              of Lorem Ipsum
+            </p>
+          </div>
+          <div class="servInner left">
+            <i class="fa-solid fa-file-invoice-dollar"></i>
+            <p>IT is a long established<br />fact that the reader</p>
+          </div>
+          <div class="servInner right">
+            <i class="fa-solid fa-chart-column"></i>
+            <p>
+              The standard chunk<br />
+              of Lorem Ipsum
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="whatisCont" class="sectionCont">
+      <div class="container">
+        <div id="whatisTxt">
+          <div id="whatisTitle">
+            <h2>What is Lorem Ipsum?<br />Lorem Ipsum is simply dummy</h2>
+          </div>
+          <div id="whatisList">
+            <div class="whatisLorem">
+              <h4>Lorem Ipsum passages</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s
+              </p>
+            </div>
+            <div class="whatisLorem">
+              <h4>Lorem Ipsum passages</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s
+              </p>
+            </div>
+            <div class="whatisLorem">
+              <h4>Lorem Ipsum passages</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="storesCont" class="sectionCont">
+      <div class="container">
+        <div id="storesText">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s
+          </p>
+          <p>DOWNLOAD IT NOW!</p>
+        </div>
+        <div id="storesList">
+          <a
+            href="https://play.google.com/store/"
+            target="_blank"
+            title="Play Store"
+            ><img src="./Images/playstore.png" alt="Play Store"
+          /></a>
+          <a
+            href="https://www.apple.com/mx/app-store/"
+            target="_blank"
+            title="App Store"
+            ><img src="./Images/appstore.png" alt="App Store"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <section id="winnerCont" class="sectionCont">
+      <div class="container">
+        <div id="winnerWrapper">
+          <div id="winnerLeft">
+            <p>
+              <i class="fa-solid fa-trophy"></i> Winner of 19 industry awards
+            </p>
+          </div>
+          <div id="winnerRight">
+            <a
+              href="https://www.facebook.com/"
+              title="facebook"
+              target="_blank"
+              class="iconCont"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://x.com/"
+              title="Twitter"
+              target="_blank"
+              class="iconCont"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.google.com/"
+              title=""
+              target="_blank"
+              class="iconCont"
+            >
+              <i class="fa-brands fa-google-plus-g"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jose-f-silva"
+              title=""
+              target="_blank"
+              class="iconCont"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              href="https://www.youtube.com/"
+              title=""
+              target="_blank"
+              class="iconCont"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a href="#" title="" target="_blank" class="iconCont">
+              <i class="fa-solid fa-chart-column"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="sectionCont">
+      <div class="container">
+        <div id="footerWrapper">
+          <div id="footerLeft">
+            <div class="footerWrapper">
+              <h4>Contact Us</h4>
+              <p>
+                <a href="mailto:name@email.com"
+                  ><i class="fa-regular fa-envelope"></i>name@email.com</a
+                >
+              </p>
+              <p>
+                <a href="tel:+12345678901"
+                  ><i class="fa-solid fa-phone"></i>1-234-5678901</a
+                >
+              </p>
+              <p><i class="fa-solid fa-comment"></i> Live Chat</p>
+            </div>
+          </div>
+          <div id="footerRight">
+            <div class="footerWrapper">
+              <h4>About</h4>
+              <p>Link 1</p>
+              <p>Link 2</p>
+              <p>Link 3</p>
+              <p>Link 4</p>
+              <p>Link 5</p>
+            </div>
+            <div class="footerWrapper">
+              <h4>Products</h4>
+              <p>Link 1</p>
+              <p>Link 2</p>
+              <p>Link 3</p>
+              <p>Link 4</p>
+              <p>Link 5</p>
+            </div>
+            <div class="footerWrapper">
+              <h4>Trading</h4>
+              <p>Link 1</p>
+              <p>Link 2</p>
+              <p>Link 3</p>
+              <p>Link 4</p>
+              <p>Link 5</p>
+            </div>
+            <div class="footerWrapper">
+              <h4>Promotions</h4>
+              <p>Link 1</p>
+              <p>Link 2</p>
+              <p>Link 3</p>
+              <p>Link 4</p>
+              <p>Link 5</p>
+            </div>
+            <div class="footerWrapper">
+              <h4>Affiliates</h4>
+              <p>Link 1</p>
+              <p>Link 2</p>
+              <p>Link 3</p>
+              <p>Link 4</p>
+              <p>Link 5</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./JS/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
